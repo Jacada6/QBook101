@@ -1,92 +1,71 @@
-# QBook101
+![](qworld/images/readme-logo.jpg)
+
+# [QWorld](https://qworld.net)'s QBook101
 
 
+The **QBook101** is a compilation of the tutorials [Bronze](https://gitlab.com/qworld/bronze-qiskit), [Nickel](https://gitlab.com/qworld/nickel), and [Silver](https://gitlab.com/qworld/qeducation/educational-materials/silver-qcourse511), and a little more.
 
-## Getting started
+**QBook101** is a collection of Jupyter notebooks, and each notebook has many tasks to provide hands-on experience.
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+_Chapter 1_ begins by reviewing the mathematics that will be needed throughout the book and a bit of the principles of quantum mechanics. _Chapter 2_ deals with classical probabilistic states and later with quantum states based on real numbers and their visualization on the unit circle. _Chapter 3_ introduces the use of quantum states with complex numbers, the visualization of qubits with the Bloch sphere, and the effect of quantum gates. _Chapter 4_ begins to discuss quantum algorithms, starting with Grover's algorithm and continuing with the algorithms of Deutsch-Jozsa, Bernstein-Vazirani, and Simon. _Chapter 5_ continues studying more advanced quantum algorithms, going through quantum phase estimation and culminating with Shor's algorithm.
+The book includes _four appendices_ covering basic Math, Python, Qiskit, and Cirq topics.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## Prerequisite
 
-## Add your files
+The prerequisites are not many, they include familiarity with high school mathematics, a little programming, ideally with Python. If necessary, you can consult the first two appendices that cover these topics and provide tasks for practice; Additionally, a quick review is made in Chapter 1.
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+## QBook101's sections
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/qworld/qeducation/qbook101.git
-git branch -M main
-git push -uf origin main
-```
+- Chapter 1: Introduction
+- Chapter 2: Classical and Quantum Systems with Real Numbers
+- Chapter 3: Quantum Systems with Complex Numbers
+- Chapter 4: Quantum Algorithms 1
+- Chapter 5: Quantum Algorithms 2
 
-## Integrate with your tools
+The complete content can be consulted in the [START notebook](./START.ipynb) or on the [QBook101 website](https://qworld.net/qbook101/).
 
-- [ ] [Set up project integrations](https://gitlab.com/qworld/qeducation/qbook101/-/settings/integrations)
+## Contribution
 
-## Collaborate with your team
+Please make a merge request or create an issue for _reporting typo_ or _your corrections_.
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+Please create an issue for _your questions_, _initiating a discussion_, or _proposing a contribution_.
 
-## Test and Deploy
+_Qbook101 has been developed under [QEducation department](https://qworld.net/qeducation/) of QWorld._
 
-Use the built-in continuous integration in GitLab.
+## Access content
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+You have two options for running notebooks from this **QBook101**:
 
-***
+1. **Online**: Run them in Google Colab, you can start from [this website](https://qworld.net/qbook101/) with the links.
+2. **Local**: Install locally what is necessary to run them on your personal computer:
 
-# Editing this README
+   1. Install [Anaconda](https://www.anaconda.com/products/distribution)
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+   2. Get a copy of [QBook101](https://gitlab.com/qworld/qeducation/qbook101)
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+      - You may clone it on your local computer, or,
+      - you may download the source code and then upzip it on your local computer.
+      - _If you are a beginner, keep your local copy on your desktop for easy access._
 
-## Name
-Choose a self-explaining name for your project.
+   3. Anaconda -> Jupyter Notebook -> Access the local copy of our repo -> Open the file "START.ipynb"
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+Details about these two options can be consulted in the [PDF file](How_to_Run_the_Notebooks.pdf)
 
 ## License
-For open source projects, say how it is licensed.
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+The text and figures are licensed under the Creative Commons Attribution 4.0 International Public License (CC-BY-4.0), available at https://creativecommons.org/licenses/by/4.0/legalcode. 
+
+The code snippets in the notebooks are licensed under Apache License 2.0, available at http://www.apache.org/licenses/LICENSE-2.0.
+
+## Acknowledgements
+
+We use [MathJax](https://www.mathjax.org) to display mathematical expressions on html files (e.g., exercises).
+
+We use open source interactive tool [quantumgame](http://play.quantumgame.io) for showing quantum coin flipping experiments.
+
+## Credits
+
+Most **QBook101** content comes from the [Bronze](https://gitlab.com/qworld/bronze-qiskit), [Nickel](https://gitlab.com/qworld/nickel), and [Silver](https://gitlab.com/qworld/qeducation/educational-materials/silver-qcourse511) tutorials; please refer to the README files on each repository for the corresponding credits.
+
+The notebooks of chapter 1, the compilation of the tutorials and the possibility of running the content of QBook101 in Google Colab was made by Claudia Zendejas-Morales (QWorld) in August 2023.
+
