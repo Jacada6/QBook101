@@ -1,3 +1,5 @@
+from random_complex_quantum_state import random_complex_quantum_state
+
 # testing whether a given quantum state is valid
 def is_quantum_state(quantum_state):
     length_square = 0
