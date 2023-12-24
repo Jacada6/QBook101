@@ -1,6 +1,6 @@
 # Imported to GitHub for convenience with Google Colab
 ## Original repository can be found at QWorld's GitLab: https://gitlab.com/qworld/qeducation/qbook101 
-#_____
+# _____
 
 ![](qworld/images/readme-logo.jpg)
 
